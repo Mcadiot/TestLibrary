@@ -5,7 +5,7 @@
     "ajv": "6.1.1",
     "ajv-keywords": "3.1.0",
     "body-parser": "1.18.2",
-    "carbone": "1.0.1",
+    "carbone": "1.1.0",
     "cookie": "0.3.1",
     "cookie-signature": "1.1.0",
     "crc": "3.5.0",
