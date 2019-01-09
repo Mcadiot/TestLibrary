@@ -1,7 +1,7 @@
 {
-"name": "foo",
-"version": "0.0.0",
-"dependencies": {
+  "name": "foo",
+  "version": "0.0.0",
+  "dependencies": {
     "ajv": "6.4.0",
     "ajv-keywords": "3.1.0",
     "body-parser": "1.18.2",
@@ -33,27 +33,26 @@
     "csv-parse": "2.2.0",
     "pdfmake": "0.1.36",
     "reflect-metadata": "0.1.12",
-    "nodemailer": "4.6.4", 
+    "nodemailer": "4.6.4",
     "bluebird": "3.5.1",
     "config": "1.30.0",
     "continuation-local-storage": "3.2.1",
-    "json5": "1.0.1", 
+    "json5": "1.0.1",
     "lodash": "4.17.5",
-    "log4js": "2.5.3",
+    "log4js": "2.6.0",
     "moment-timezone": "0.5.16",
     "source-map-support": "0.5.4",
     "tslib": "1.9.0",
-    "reflect-metadata": "0.1.12",
     "sequelize": "4.37.6",
     "terraformer": "1.0.8",
     "terraformer-wkt-parser": "1.1.2",
     "sqlite3": "4.0.0",
-    "classnames": "2.2.5",  
+    "classnames": "2.2.5",
     "no-scroll": "2.1.0",
     "prop-types": "15.6.1",
     "rc-calendar": "9.6.0",
     "react": "16.3.2",
-    "react-dom": "16.3.2",
+    "react-dom": "16.3.3",
     "react-draggable": "3.0.5",
     "tabbable": "1.1.2",
     "rc-util": "4.5.0",
@@ -62,6 +61,12 @@
     "cheerio": "1.0.0-rc.2",
     "sinon": "4.5.0",
     "sinon-chai": "3.0.0",
-    "proxyquire": "2.0.1"
-    }
+    "proxyquire": "2.0.1",
+    "snyk": "^1.121.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
