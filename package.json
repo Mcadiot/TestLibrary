@@ -25,7 +25,7 @@
     "fullcalendar": "^3.9.0",
     "fullcalendar-reactwrapper": "^1.0.7",
     "history": "^4.9.0",
-    "http-proxy-middleware": "^0.19.1",
+    "http-proxy-middleware": "^2.0.9",
     "jest": "23.6.0",
     "localforage": "^1.7.3",
     "moment": "^2.24.0",
